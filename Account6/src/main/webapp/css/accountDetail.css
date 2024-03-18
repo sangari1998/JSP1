@@ -1,0 +1,84 @@
+@charset "utf-8";
+.contents h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#tb1 {
+    margin-top: 5vh;
+    width: 1100px;
+    text-align: center;
+    margin:0 auto;
+    text-align: center;
+}
+#tb1,
+#tb1 tr,
+#tb1 td{
+    border-collapse: collapse;
+    line-height: 30px;
+}
+#tb1 tr td:first-child{
+    width: 160px;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+}
+#tb1 tr:first-child td:first-child {
+    top: 0;
+    font-size: 16px;
+}
+#tb1 span {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    font-size: 18px;
+}
+.return {
+    margin-top: 100px;
+    width: 100px;
+    height: 40px; 
+}
+.btn_cancel,
+.btn_modify2 {
+    display: none;
+}
+#tb1 #income {
+    position: relative;
+    width: 70px;
+    height: 30px;
+    top: 5px;
+}
+#tb1 tr td input[type="text"]{
+    width: 160px;
+    position: relative;
+    top: 5px;
+}
+.contents>h2 {
+    margin-top: 80px;
+}
+#tb1 tr:nth-child(2){
+    position: relative;
+    top: 10px;
+}
+#tb2 tr,#tb2 td {
+    border: none !important;
+}
+#tb2 {
+    width: 1100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+#tb2 tr:first-child td:first-child{
+    position: relative;
+    left: 50px;
+    top: 35px;
+    font-size: 24px;
+
+}
+#tb2 tr:first-child td:last-child{
+    position: relative;
+    top: 50px;
+    right: 150px;
+}

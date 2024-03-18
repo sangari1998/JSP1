@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+#tb1 tr:first-child  {
+    position: relative;
+    font-size: 26px;
+    left: 50px;
+}
+#tb1 {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+#tb1 tr:first-child {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+#tb1 tr:nth-child(2){
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#tb1 td,
+#tb2 td{
+    border: none;
+    position: relative;
+    line-height: 20px;
+}
+#tb1 td div {
+    position: absolute;
+    display: block;
+    left: 270px;
+    top: -0px;
+    width: 130px;
+}
+#tb1 tr:nth-child(3){
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#tb1 tr:nth-child(3) td{
+    font-size: 20px;
+}
+#tb1 tr:first-child td {
+    position: relative;
+    right: 50px;
+}
+tr,td {
+    border: none;
+}
+#tb2 {
+    position: relative;
+}
+#tb2 tr {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 800px;
+    margin:0 auto;
+}
+#tb2 tr td{
+    height: 50px;
+}
+#tb2 tr {
+    border-top: none;
+}
+#tb2 tr:first-child{
+    height: 60px;
+}
+#tb2 tr:first-child td{
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    height: 57px;
+}
+#tb2 tr {
+    height: 50px;
+    position: relative;
+}
+#tb2 tr td {
+    line-height: 30px;
+}
+#tb2 tr td {
+    border-right: 1px solid #ccc;
+    display: block;
+    width: 199px;
+    text-align: center;
+    position: relative;
+}
+#tb2 tr td:last-child{
+    border-right: none;
+}
+#tb2 {
+    width: 1000px;
+}
+#tb2 tr {
+    width: 999px;
+}
+#tb2 tr td {
+    width: 198px;
+}
+.btn_cancel,.btn_update2 {
+    display: none;
+}
+#tb2 tr:first-child{
+    height: 58px !important;
+    border-bottom: 1px solid #ccc;
+}
+#tb1 tr:first-child td {
+    margin-bottom: 80px;
+}
+
+

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#wrap{
+	margin-top: 200px;
+}
+.table tr:first-child td{
+	padding-top: 40px;
+}
+.table tr:nth-child(2) td{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.table tr:nth-child(3) td {
+	padding-bottom: 20px;
+}
+h2{
+	font-size: 28px;
+}
+tr,td {
+	border: none !important;
+}
+
+section tr:last-child td:first-child {
+	position: relative;
+	left: 80px;
+}
+#wrap {
+	width: 700px;
+}
+
